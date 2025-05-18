@@ -1,60 +1,96 @@
 <data>
     <electronics>
-        <category id="1"  name="computers">
-            <electronic>
+
+        <!-- The following section is for the computers category-->
+        <category id="n1"  name="computers">
+            <electronic id="n1-01">
                 <name>asus tuf gaming a15</name>
-                <protcessor>AMD ryzn7</protcessor>
+                <processor>AMD ryzn7</processor>
                 <RAM>512/12</RAM>
                 <MFD>2024/08</MFD>
+                <warranty>6 months</warranty>
                 <price>$850</price>
                 <discount active="true">12%</discount>
                 <available>true</available>
             </electronic>
-            <electronic>
+            <electronic id="n1-02">
                 <name>lenovo</name>
-                <protcessor>intel core i9</protcessor>
+                <processor>intel core i9</processor>
                 <RAM>1tr/16</RAM>
                 <MFD>2025/03</MFD>
+                <warranty>12 months</warranty>
                 <price>$1100</price>
                 <discount active="false">0%</discount>
                 <available>true</available>
             </electronic>
         </category>
-        <category  id="2"  name="mobile phones">
-            <electronic>
+
+        <!-- The following section is for the mobile phones category-->
+        <category  id="n2"  name="mobile phones">
+            <electronic id="n2-01">
                 <name>samsung galaxy a12</name>
                 <memory>64/4</memory>
                 <MFD>2020/12</MFD>
+                <warranty>0 month</warranty>
                 <price>$180</price>
-                <discount active="false"0%></discount>
+                <discount active="false">0%</discount>
                 <available>false</available>
             </electronic>
-            <electronic>
+            <electronic id="n2-02">
                 <name>tecno spark</name>
                 <memory>32/4</memory>
                 <MFD>2022/01</MFD>
+                <warranty>3 months</warranty>
                 <price>$90</price>
-                <discount active="true"4%></discount>
+                <discount active="true">4%</discount>
                 <available>true</available>
             </electronic>
         </category>
-        <category  id="3"  name="watch TV">
-            <electronic>
+
+        <!--The following section is for the watch TV category -->
+        <category  id="n3"  name="watch TV">
+            <electronic id="n3-01">
                 <name>artel</name>
                 <screensize>43-inch TV</screensize>
                 <resolution>4K</resolution>
+                <warranty>24 months</warranty>
                 <price>$500</price>
                 <discount active="true">6%</discount>
                 <available>true</available>
             </electronic>
-            <electronic>
+            <electronic id="n3-02">
                 <name>smart</name>
                 <screensize>55-inch TV</screensize>
                 <resolution>4K</resolution>
+                <warranty>18 months</warranty>
                 <price>$900</price>
                 <discount active="false">0%</discount>
                 <available>true</available>
             </electronic>
+
+            <!-- Color mappings-->
         </category>
+        <colors for="n1-01">
+            <type>white</type>
+            <type>black</type>
+        </colors>
+        <colors for="n1-02">
+            <type>black</type>
+        </colors>
+        <colors for="n2-01">
+            <type>blue</type>
+            <type>white</type>
+            <type>black</type>
+        </colors>
+        <colors for="n2-02">
+            <type>red</type>
+            <type>green</type>
+        </colors>
+        <colors for="n3-01">
+            <type>black</type>
+        </colors>
+        <colors for="n3-02">
+            <type>black</type>
+        </colors>
     </electronics>
 </data>
